@@ -30,7 +30,7 @@ printf("\n");
     printf("Escreva a população: ");
     scanf("%d", &populacao1);
 
-    printf("Escrava a área: ");
+    printf("Escreva a área: ");
     scanf("%f", &area1);
 
     printf("Escreva o PIB: ");
@@ -66,7 +66,7 @@ printf("\n");
     printf("Escreva a população: ");
     scanf("%d", &populacao2);
 
-    printf("Escrava a área: ");
+    printf("Escreva a área: ");
     scanf("%f", &area2);
 
     printf("Escreva o PIB: ");
