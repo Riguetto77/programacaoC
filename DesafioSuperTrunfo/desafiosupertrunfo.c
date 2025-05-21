@@ -135,7 +135,27 @@ printf("\n");
     printf("Pib per Capta: %f\n", resultadopibpercapta);
     printf("Super Poder: %f\n", resultadosuperpoder);
 
+    //pula uma linha após exibição da comparação
+    printf("\n");
 
+    //Definindo o atributo Super Trunfo para comparação
+    printf("***Comparação de Cartas (Atributo: Super Poder)***\n");
+
+    //pula uma linha após exibição da comparação
+    printf("\n");
+
+    //Aplicando estruturas de decisão para determinar o vencedor e exibindo o resultado
+    printf("Carta %s - %s - Super Poder: %.2f\n", codigo1, estado1, superpoder1);
+    printf("Carta %s - %s - Super Poder: %.2f\n", codigo2, estado2, superpoder2);
+ 
+    //pula uma linha após exibição da comparação
+    printf("\n");
+    
+    if(superpoder1 > superpoder2){
+        printf("A Carta %s - %s venceu!", codigo1, estado1);
+    } else {
+        printf("A Carta %s - %s venceu!", codigo2, estado2);
+    }
 
     return 0;
 
